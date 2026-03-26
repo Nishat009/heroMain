@@ -11,7 +11,7 @@ const Banner = () => {
         {/* banner start */}
         <div className="flex flex-col items-center text-center gap-6 sm:gap-8 max-w-5xl mx-auto">
           {/* Heading */}
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl  font-bold leading-tight max-w-4xl">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl  font-bold leading-tight max-w-4xl text-white">
             We Build<br></br>
             <span className="font-bolder  bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
               Productive{" "}
@@ -34,7 +34,7 @@ const Banner = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="btn btn-outline border border-gray-400 hover:border-gray-500 hover:bg-gray-50 w-full sm:w-auto flex items-center justify-center gap-3 px-6 py-3 text-sm sm:text-base">
+              <button className="btn btn-outline border border-gray-400 hover:border-gray-500 hover:bg-gray-50 w-full sm:w-auto flex items-center justify-center gap-3 px-6 py-3 text-sm sm:text-base text-yellow-600">
                 <img
                   className="w-7 h-7 sm:w-8 sm:h-8"
                   src={GoogleplayImg}
@@ -49,7 +49,7 @@ const Banner = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="btn btn-outline border border-gray-400 hover:border-gray-500 hover:bg-gray-50 w-full sm:w-auto flex items-center justify-center gap-3 px-6 py-3 text-sm sm:text-base">
+              <button className="btn btn-outline border border-gray-400 hover:border-gray-500 hover:bg-gray-50 w-full sm:w-auto flex items-center justify-center gap-3 px-6 py-3 text-sm sm:text-base text-yellow-600">
                 <img
                   className="w-7 h-7 sm:w-8 sm:h-8"
                   src={AppstoreImg}
@@ -72,53 +72,42 @@ const Banner = () => {
         {/* banner end */}
       </div>
       {/* trusted */}
-    <div className="relative text-center py-10 sm:py-12 md:py-14 px-4">
-  
-  {/* Gradient Background */}
-  <div className="absolute inset-0 bg-gradient-to-r from-[#5b2be0] to-[#8b5cf6] opacity-95"></div>
+      <div className="text-center bg-gradient-to-r from-[#632EE3] to-[#9F62F2] py-6 sm:py-8 md:py-10 text-white">
+        <h1 className="font-bold text-4xl sm:text-3xl md:text-4xl px-4 tracking-wide">
+          Trusted by Millions, Built for You
+        </h1>
+        <div className="stats stats-vertical lg:stats-horizontal mt-5 sm:mt-6 md:mt-7 justify-center gap-5 sm:gap-7 lg:gap-10">
+          <div className="stat place-items-center">
+            <div className="stat-title text-white">Downloads</div>
+            <div className="stat-value text-4xl sm:text-4xl md:text-5xl font-extrabold mt-5 mb-5">
+              29.6M
+            </div>
+            <div className="stat-desc text-white text-sm sm:text-base">
+              21% More Than Last Month
+            </div>
+          </div>
 
-  {/* Glass Effect Container */}
-  <div className="relative z-10 max-w-6xl mx-auto backdrop-blur-md bg-white/10 border border-white/20 rounded-3xl py-8 shadow-xl">
+          <div className="stat place-items-center">
+            <div className="stat-title text-white">Total Reviews</div>
+            <div className="stat-value text-4xl sm:text-4xl md:text-5xl font-extrabold mt-5 mb-5">
+              960K
+            </div>
+            <div className="stat-desc text-white text-sm sm:text-base">
+              46% More Than Last Month
+            </div>
+          </div>
 
-    <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl text-white tracking-wide">
-      Trusted by Millions, Built for You
-    </h1>
-
-    <div className="stats stats-vertical lg:stats-horizontal mt-6 justify-center gap-6">
-
-      <div className="stat place-items-center text-white">
-        <div className="stat-title text-white/80">Downloads</div>
-        <div className="stat-value text-4xl md:text-5xl font-extrabold mt-4">
-          29.6M
-        </div>
-        <div className="stat-desc text-white/70">
-          21% More Than Last Month
-        </div>
-      </div>
-
-      <div className="stat place-items-center text-white">
-        <div className="stat-title text-white/80">Total Reviews</div>
-        <div className="stat-value text-4xl md:text-5xl font-extrabold mt-4">
-          960K
-        </div>
-        <div className="stat-desc text-white/70">
-          46% More Than Last Month
-        </div>
-      </div>
-
-      <div className="stat place-items-center text-white">
-        <div className="stat-title text-white/80">Active Apps</div>
-        <div className="stat-value text-4xl md:text-5xl font-extrabold mt-4">
-          132+
-        </div>
-        <div className="stat-desc text-white/70">
-          31 More Will Launch
+          <div className="stat place-items-center">
+            <div className="stat-title text-white">Active Apps</div>
+            <div className="stat-value text-4xl sm:text-4xl md:text-5xl font-extrabold mt-5 mb-5">
+              132+
+            </div>
+            <div className="stat-desc text-white text-sm sm:text-base">
+              31 More Will Launch
+            </div>
+          </div>
         </div>
       </div>
-
-    </div>
-  </div>
-</div>
       {/* trusted end */}
     </div>
   );

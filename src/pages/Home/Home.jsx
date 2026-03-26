@@ -7,7 +7,7 @@ const Home = () => {
   const allAppData = useLoaderData();
   //   console.log(allAppData);
   return (
-    <div className="bg-[#f3f3f3]">
+    <div className="bg-gradient-to-br from-[#0f172a] via-[#1e1b4b] to-[#312e81] min-h-screen">
       <Banner></Banner>
       <AllApp allAppData={allAppData}></AllApp>
     </div>
