@@ -1,95 +1,53 @@
-# 🚀 HERO.IO
+🚀 HEROMAIN
+📌 Description
 
-## 📌 Description
+HEROMAIN is a modern and intuitive web application designed to help users discover, install, and manage trending apps with ease. It provides a clean, responsive interface where users can explore apps, view details, and control their installed apps efficiently.
 
-**HERO.IO** is a modern web application that allows users to explore, install, manage, and uninstall trending apps in a clean and user-friendly interface. Users can view app details, sort installed apps based on downloads, and manage their installed list efficiently using local storage.
+The app focuses on performance and user experience by using dynamic rendering, real-time updates, and local storage to persist user data without requiring page reloads.
 
-The application focuses on delivering a smooth user experience with dynamic data handling, responsive UI, and real-time updates without page reload.
-
----
-
-## ✨ Features
-
-- 📱 Browse all available apps
-- ✅ Install apps and store them locally
-- ❌ Uninstall apps instantly
-- 📊 Sort installed apps by downloads (High → Low / Low → High)
-- ⚡ Fast and dynamic UI with React
-- 🔔 Toast notifications for user actions
-- 📦 Local storage-based state persistence
-
----
-
-## 🛠️ Technologies Used
-
-### Frontend
-
-- ⚛️ React.js
-- 🧭 React Router
-- 🎨 Tailwind CSS
-- 🌼 DaisyUI
-
-### Libraries & Tools
-
-- 🔔 React Toastify
-- 💾 LocalStorage API
-
----
-
-## 📂 Project Structure (Basic)
-
-```
+✨ Features
+📱 Explore a list of trending apps
+✅ Install apps with a single click
+❌ Instantly uninstall apps
+📊 Sort installed apps by download count (High → Low / Low → High)
+⚡ Smooth and fast UI powered by React
+🔔 Real-time toast notifications for actions
+💾 Persistent data using Local Storage
+🛠️ Technologies Used
+Frontend
+⚛️ React.js
+🧭 React Router
+🎨 Tailwind CSS
+🌼 DaisyUI
+Libraries & Tools
+🔔 React Toastify
+💾 LocalStorage API
+📂 Project Structure (Basic)
 src/
- ┣ components/
- ┣ pages/
- ┣ utility/
- ┣ assets/
- ┗ routes/
-```
-
----
-
-## 🚀 Getting Started
-
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/sumaiyaa005/hero_io
-```
-
-### 2️⃣ Install Dependencies
-
-```bash
+ ┣ components/   # Reusable UI components
+ ┣ pages/        # Application pages
+ ┣ utility/      # Helper functions
+ ┣ assets/       # Images and static files
+ ┗ routes/       # Routing configuration
+🚀 Getting Started
+1️⃣ Clone the Repository
+git clone https://github.com/sumaiyaa005/heromain
+2️⃣ Install Dependencies
 npm install
-```
-
-### 3️⃣ Run the Project
-
-```bash
+3️⃣ Run the Project
 npm run dev
-```
-
----
-
-## 🌐 Live Preview
+🌐 Live Preview
 
 👉 Coming Soon...
 
----
+👩‍💻 Author
 
-## 👩‍💻 Author
+Sumaiya Aktar
 
-**Sumaiya Aktar**
+⭐ Contribution
 
----
+Contributions are welcome! Feel free to fork this repository, create a new branch, and submit a pull request.
 
-## ⭐ Contribution
-
-Feel free to fork this project and contribute. Any improvements are welcome!
-
----
-
-## 📜 License
+📜 License
 
 This project is open-source and available under the MIT License.
-# heroMain

@@ -59,7 +59,7 @@ const Header = () => {
           >
             <img src={logo} className="w-9 h-9 sm:w-10 sm:h-10" alt="Logo" />
             <span className="bg-gradient-to-r from-[#632EE3] to-[#9F62F3] bg-clip-text text-transparent">
-              HERO.IO
+              HERO.MAIN
             </span>
           </Link>
         </div>

@@ -21,7 +21,7 @@ const Banner = () => {
 
           {/* Description */}
           <p className="text-gray-600 text-sm sm:text-base md:text-lg leading-relaxed max-w-4xl px-2">
-            At HERO.IO , we craft innovative apps designed to make everyday life
+            At HERO MAIN , we craft innovative apps designed to make everyday life
             simpler, smarter, and more exciting.
             <br className="hidden sm:block" /> Our goal is to turn your ideas
             into digital experiences that truly make an impact.

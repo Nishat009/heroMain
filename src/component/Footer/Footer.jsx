@@ -15,7 +15,7 @@ const Footer = () => {
               className="flex items-center gap-2 text-xl font-semibold"
             >
               <img src={logo} className="w-9 h-9 sm:w-10 sm:h-10" alt="Logo" />
-              <span className="text-white-200">HERO.IO</span>
+              <span className="text-white-200">HERO MAIN</span>
             </Link>
 
             <p className="text-gray-400 leading-relaxed mt-3">
@@ -106,7 +106,7 @@ const Footer = () => {
               Contact Us
             </h3>
             <ul className="space-y-3 text-gray-400">
-              <li>support@hero.io</li>
+              <li>support@heromain.io</li>
               <li>Dhaka, Bangladesh</li>
             </ul>
 
@@ -130,7 +130,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-16 pt-8 text-center gap-4 text-sm text-gray-500">
-          <p>© 2026 HERO.IO. All rights reserved.</p>
+          <p>© 2026 HEROMAIN.IO. All rights reserved.</p>
         </div>
       </div>
     </footer>
