@@ -7,13 +7,21 @@ The app focuses on performance and user experience by using dynamic rendering, r
 
 ✨ Features
 📱 Explore a list of trending apps
+
 ✅ Install apps with a single click
+
 ❌ Instantly uninstall apps
+
 📊 Sort installed apps by download count (High → Low / Low → High)
+
 ⚡ Smooth and fast UI powered by React
+
 🔔 Real-time toast notifications for actions
+
 💾 Persistent data using Local Storage
+
 🛠️ Technologies Used
+
 Frontend
 ⚛️ React.js
 🧭 React Router
@@ -31,18 +39,18 @@ src/
  ┗ routes/       # Routing configuration
 🚀 Getting Started
 1️⃣ Clone the Repository
-git clone https://github.com/sumaiyaa005/heromain
+git clone 
 2️⃣ Install Dependencies
 npm install
 3️⃣ Run the Project
 npm run dev
-🌐 Live Preview
+🌐 Live Preview: https://hero-main-three.vercel.app/
 
-👉 Coming Soon...
+👉 git repo : https://github.com/Nishat009/heroMain
 
 👩‍💻 Author
 
-Sumaiya Aktar
+Nishat Raihana Prantik
 
 ⭐ Contribution
 
