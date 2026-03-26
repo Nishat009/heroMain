@@ -2,7 +2,7 @@ import React from "react";
 import BannerImg from "../../assets/hero.png";
 import GoogleplayImg from "../../assets/google-play.png";
 import AppstoreImg from "../../assets/app-store.png";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (

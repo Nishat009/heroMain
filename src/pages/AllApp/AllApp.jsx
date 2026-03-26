@@ -1,6 +1,6 @@
 import React from "react";
 import SingleApp from "../SingleApp/SingleApp";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const AllApp = ({ allAppData }) => {
   return (
